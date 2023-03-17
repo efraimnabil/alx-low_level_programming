@@ -1,0 +1,5 @@
+#!/bin/bash
+read -p "The file name is: " file
+echo "#!/bin/bash" > $file
+nano $file
+chmod u+x $file
