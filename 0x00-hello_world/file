@@ -7,4 +7,3 @@ echo "int main(void){
     return 0;
 }" >> $file.c
 nano $file.c
-chmod u+x $file
