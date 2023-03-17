@@ -16,3 +16,6 @@ int main(void)
     return 0;
 }" >> $file.c
 nano $file.c
+if [ -f $file.c.c ]; then
+    mv $file.c.c $file.c
+fi
