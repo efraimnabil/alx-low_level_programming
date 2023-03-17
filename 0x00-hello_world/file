@@ -1,5 +1,10 @@
 #!/bin/bash
 read -p "The file name is: " file
-echo "#!/bin/bash" > $file
-nano $file
+touch $file.c
+echo "#include <stdio.h>" >> $file.c
+echo "int main(void){
+
+    return 0;
+}" >> $file.c
+nano $file.c
 chmod u+x $file
