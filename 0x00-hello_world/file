@@ -13,6 +13,6 @@ echo "#include <stdio.h>
 int main(void)
 {
     
-    return 0;
+    return (0);
 }" >> $file
 nano $file.c
