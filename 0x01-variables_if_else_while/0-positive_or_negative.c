@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <time.h>
 
 /**
  * main - Entry point
  *
- * Description:
+ * Description: if else
  *
  * Return: 0 means no errors.
 */
@@ -17,7 +18,7 @@ int main(void)
 	
 	if(n > 0)
 		printf("is positive");
-	if(n == 0)
+	else if(n == 0)
 		printf("is zero");
 	else
 		printf("is negative");
