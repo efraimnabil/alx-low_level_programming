@@ -1,0 +1,18 @@
+#!/bin/bash
+read -p "The file name is: " file
+echo "#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Description:
+ *
+ * Return: 0 means no errors.
+*/
+
+int main(void)
+{
+	
+	return (0);
+}" >> $file
+nano $file
