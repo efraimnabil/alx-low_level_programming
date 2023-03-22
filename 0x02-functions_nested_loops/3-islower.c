@@ -1,11 +1,11 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower - entry
- * @c - character
- * 
+ * _islower - entry point
+ * @c: character
+ *
  * Description: <description>
- * Return: (0)
+ * Return: <return>
  */
 int _islower(int c)
 {
