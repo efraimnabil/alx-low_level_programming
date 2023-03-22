@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * 2-print_alphabet_x10.c
+ * print_alphabet_x10 - print
  *
- * Description: 2-print_alphabet_x10.c
+ * Description: 2-print_alphabet_x10
  *
- * Return: 0 means no errors.
+ * Return: void
 */
 
 void print_alphabet_x10(void)
