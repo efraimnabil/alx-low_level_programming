@@ -1,13 +1,10 @@
 #include "main.h"
-
 /**
- * main - Entry point
+ * print_alphabet - print alphabet in lowercase
  *
- * Description:
- *
- * Return: 0 means no errors.
-*/
-
+ * Description:  using _putchar user defined function
+ * Return: void
+ */
 void print_alphabet(void)
 {
 	char c;
