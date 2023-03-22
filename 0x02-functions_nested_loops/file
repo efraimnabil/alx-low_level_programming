@@ -1,6 +1,7 @@
 #!/bin/bash
 read -p "The file name is: " file
-echo "#include <main.h>
+echo "
+#include "main.h"
 
 /**
  * main - Entry point
