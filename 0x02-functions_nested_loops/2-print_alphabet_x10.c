@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * 2-print_alphabet_x10.c
  *
- * Description:
+ * Description: 2-print_alphabet_x10.c
  *
  * Return: 0 means no errors.
 */
