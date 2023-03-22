@@ -2,7 +2,8 @@
 #include <ctype.h>
 /**
  * _islower - entry
- *
+ * @c - character
+ * 
  * Description: <description>
  * Return: (0)
  */
