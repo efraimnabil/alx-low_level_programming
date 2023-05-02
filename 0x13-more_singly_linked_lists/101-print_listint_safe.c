@@ -10,8 +10,6 @@ size_t print_listint_safe(const listint_t *head)
 {
 	const listint_t *temp = head, *temp2 = NULL;
 	size_t i = 0, j;
-if (!head)
-exit(98);
 
 	while (temp)
 	{
