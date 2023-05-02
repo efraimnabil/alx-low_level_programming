@@ -9,7 +9,7 @@
 size_t print_listint_safe(const listint_t *head)
 {
 	const listint_t *temp;
-	const listint_t *visited[1024];
+	const listint_t *visited[60000];
 	int i, j;
 
 	temp = head;
