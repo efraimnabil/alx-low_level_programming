@@ -8,7 +8,7 @@
  */
 size_t print_listint_safe(const listint_t *head)
 {
-	const listint_t *temp = head, *temp2 = NULL;
+	const listint_t *temp = NULL, *temp2 = NULL;
 	size_t i = 0, j;
 
 	while (temp)
