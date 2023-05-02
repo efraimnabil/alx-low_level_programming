@@ -10,7 +10,7 @@ size_t print_listint_safe(const listint_t *head)
 {
 	const listint_t *temp = NULL, *temp2 = NULL;
 	size_t i = 0, j;
-
+temp = head;
 	while (temp)
 	{
 		printf("[%p] %d\n", (void *)temp, temp->n);
